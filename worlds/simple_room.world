@@ -27,6 +27,15 @@
       <pose>0 0 0 0 0 0</pose>
     </include>
 
+    <!-- Walk -->
+    <actor name="actor">
+      <skin>
+        <filename>walk.dae</filename>
+      </skin>
+    </actor>
+
+
+
     <!-- locals -->
     <!-- <plugin name="locals" filename="lib_locals_publisher.so">
       <local name="start">-6.75 0 0 0 0 0</local>
